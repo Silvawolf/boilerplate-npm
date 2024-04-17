@@ -1,0 +1,26 @@
+"name": "my-project",        // Name of the project or package
+  "version": "1.0.0",          // Version of the project or package
+  "description": "My awesome project",  // Description of the project
+  "main": "index.js",          // Entry point of the project
+  "scripts": {
+    "start": "node index.js",  // Define custom scripts (e.g., npm start)
+    "test": "jest"             // Define test script (e.g., npm test)
+  },
+  "keywords": [
+    "node",
+    "npm",
+    "package"
+  ],
+  "author": {
+    "name": "Jordan Thomas",
+    "email": "jthomas.prsvr@gmail.com"
+  },
+  "license": "MIT",            // License type (e.g., MIT, ISC, GPL-3.0)
+  "dependencies": {
+    "express": "^4.17.1",      // Runtime dependencies
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6"          // Development dependencies
+  }
+}
